@@ -1,0 +1,42 @@
+{
+  "name": "reactnativeproject",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.2",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-navigation/drawer": "^6.6.15",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "@react-navigation/stack": "^6.3.29",
+    "@reduxjs/toolkit": "^2.2.6",
+    "@types/react": "~18.2.79",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "expo": "~51.0.2",
+    "expo-constants": "^16.0.1",
+    "expo-status-bar": "~1.12.1",
+    "express": "^4.19.2",
+    "faker": "^5.5.3",
+    "mysql": "^2.18.1",
+    "query-string": "^9.0.0",
+    "react": "18.2.0",
+    "react-native": "0.74.1",
+    "react-native-mongodb": "^1.0.0",
+    "react-native-reanimated": "^3.11.0",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1",
+    "typescript": "~5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
